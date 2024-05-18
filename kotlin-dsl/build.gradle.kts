@@ -30,7 +30,7 @@ subprojects {
         runtimeOnly("org.eclipse.jetty:jetty-client:11.0.15") // :11.0.15
         runtimeOnly("org.eclipse.jetty:jetty-security:11.0.15") // :11.0.15
         runtimeOnly("org.eclipse.jetty:jetty-xml:11.0.15") // :11.0.15
-        runtimeOnly("org.eclipse.jetty.http2:http2-common:11.0.15") // :11.0.15
+        runtimeOnly("org.eclipse.jetty.http2:http2-common:11.0.20") // :11.0.15
     }
 
     tasks.withType<KotlinCompile> {
